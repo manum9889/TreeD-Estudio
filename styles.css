@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    color: #333;
+background-image: url('images/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+header {
+background-image: url('images/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+background-image: url('images/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.hero h2 {
+    margin: 0 0 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.services {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.service {
+    flex: 1;
+ background-image: url('images/fondo2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 500px;
+    margin: 0 auto 1rem;
+}
+
+footer form input,
+footer form textarea,
+footer form button {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer form button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.imagen-redonda {
+    width: 150px; /* Ancho de la imagen */
+    height: 150px; /* Alto igual al ancho para asegurar un círculo */
+    object-fit: cover; /* Ajusta el contenido dentro del marco */
+    border-radius: 30%; /* Hace que los bordes sean redondeados en un círculo */
+    border: 3px solid #f4f4f4; /* Marco con color azul */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el marco */
+}
