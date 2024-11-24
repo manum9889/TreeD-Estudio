@@ -12,7 +12,7 @@ background-image: url('TreeD-Estudio/fondo.jpg');
 }
 
 header {
-background-image: url('TreeD-Estudio/fondo.jpg');
+background-image: url('images/fondo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -48,7 +48,7 @@ header nav ul li a {
 }
 
 .hero {
-background-image: url('TreeD-Estudio/fondo.jpg');
+background-image: url('images/fondo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -85,7 +85,7 @@ background-image: url('TreeD-Estudio/fondo.jpg');
 
 .service {
     flex: 1;
- background-image: url('TreeD-Estudio/fondo2.jpg');
+ background-image: url('images/fondo2.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
